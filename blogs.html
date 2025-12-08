@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights Hub & News - Food Industry Asia (FIA)</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/cropped-favicon-32x32.png" sizes="32x32">
+    <link rel="icon" href="images/cropped-favicon-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="images/cropped-favicon-180x180.png">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <!-- Navigation -->
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg py-2">
+                    <a href="/" class="logo-link mb-2">
+                        <img src="images/weblogobk.png" alt="Food Industry Asia" height="80" width="150"
+                            class="logo-main">
+                    </a>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse pt-2" id="mainNav">
+                        <ul class="navbar-nav me-auto ms-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/membership.html">Membership & Benefits</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/blogs.html">Insights Hub</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/events.html">Events</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Videos</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/digital-stories.html"> Digital Stories</a></li>
+                                    <li><a class="dropdown-item" href="https://fiatv.foodindustry.asia/">Feeding Asia's Future</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="login-area py-3 py-lg-0">
+                            <img src="images/login-icon.png" width="26" height="18" alt="Login">
+                            <a href="#">Members Login</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-overlay"></div>
+        <img src="images/Insightshub/Insights Hub - Fade Top Banner.webp"
+            class="page-header-image" alt="FIA Blogs">
+        <div class="container">
+            <div class="page-header-content">
+                <p class="page-subtitle">FIA INSIGHTS</p>
+                <h1 class="page-title">Insights Hub</h1>
+                <p class="page-description">Stay Informed with the Latest Trends, Insights, and Stories from Asia's Food
+                    & Beverage Industry</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Categories Filter -->
+    <!-- <section class="blog-filter-section py-5">
+        <div class="container">
+            <div class="blog-filters">
+                <button class="filter-btn active" data-category="all">
+                    <i class="fa-solid fa-newspaper"></i>
+                    All Articles
+                </button>
+                <button class="filter-btn" data-category="industry-news">
+                    <i class="fa-solid fa-industry"></i>
+                    Industry News
+                </button>
+                <button class="filter-btn" data-category="innovation">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    Innovation
+                </button>
+                <button class="filter-btn" data-category="sustainability">
+                    <i class="fa-solid fa-leaf"></i>
+                    Sustainability
+                </button>
+                <button class="filter-btn" data-category="policy">
+                    <i class="fa-solid fa-gavel"></i>
+                    Policy & Regulation
+                </button>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Latest Blogs Section -->
+    <section class="blogs-listing-section py-5">
+        <div class="container">
+            <div class="about-header text-center mb-5">
+                <div class="about-header-decoration"></div>
+                <p class="about-label">LATEST INSIGHTS</p>
+                <h2 class="about-main-title">Recent Articles</h2>
+                <p class="about-subtitle">Explore our latest perspectives on food industry trends and developments</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Blog Card 1 -->
+                <div class="col-lg-4 col-md-6" data-category="sustainability">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="images/newspic2.jpeg" alt="Sustainable Packaging">
+                            <div class="blog-card-category sustainability">
+                                <i class="fa-solid fa-leaf"></i>
+                                Sustainability
+                            </div>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-card-meta">
+                                <span class="blog-card-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    March 12, 2025
+                                </span>
+                                <span class="blog-card-read-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    4 min
+                                </span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blog-detail.html">Packaged Foods: Expanding Access and Combating Malnutrition
+                                    in Southeast Asia</a>
+                            </h3>
+                            <p class="blog-card-description">Despite remarkable economic progress, Southeast Asia still
+                                grapples with stunting, wasting, and micronutrient deficiencies. How can the food
+                                industry address these challenges?</p>
+                            <div class="blog-card-footer">
+                                <div class="blog-author-mini">
+                                    <span class="author-mini-avatar">SL</span>
+                                    <span class="author-mini-name">Sarah Lee</span>
+                                </div>
+                                <a href="blog-detail.html" class="blog-read-link">
+                                    Read More
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 2 -->
+                <div class="col-lg-4 col-md-6" data-category="innovation">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="images/newspic2.jpeg" alt="Food Innovation">
+                            <div class="blog-card-category innovation">
+                                <i class="fa-solid fa-lightbulb"></i>
+                                Innovation
+                            </div>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-card-meta">
+                                <span class="blog-card-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    March 10, 2025
+                                </span>
+                                <span class="blog-card-read-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    6 min
+                                </span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blog-detail.html">Emerging Food Technologies: AI and Automation in Asia's Food
+                                    Manufacturing</a>
+                            </h3>
+                            <p class="blog-card-description">Artificial intelligence and automation are revolutionizing
+                                food production across Asia. Explore how leading manufacturers are adopting these
+                                transformative technologies.</p>
+                            <div class="blog-card-footer">
+                                <div class="blog-author-mini">
+                                    <span class="author-mini-avatar">JC</span>
+                                    <span class="author-mini-name">James Chen</span>
+                                </div>
+                                <a href="blog-detail.html" class="blog-read-link">
+                                    Read More
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 3 -->
+                <div class="col-lg-4 col-md-6" data-category="policy">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="images/banner2.jpg" alt="Nutrition Policy">
+                            <div class="blog-card-category policy">
+                                <i class="fa-solid fa-gavel"></i>
+                                Policy
+                            </div>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-card-meta">
+                                <span class="blog-card-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    March 8, 2025
+                                </span>
+                                <span class="blog-card-read-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    7 min
+                                </span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blog-detail.html">Navigating Front-of-Pack Labeling Regulations Across ASEAN
+                                    Markets</a>
+                            </h3>
+                            <p class="blog-card-description">A comprehensive guide to understanding the evolving
+                                landscape of nutrition labeling requirements and compliance strategies for food
+                                manufacturers.</p>
+                            <div class="blog-card-footer">
+                                <div class="blog-author-mini">
+                                    <span class="author-mini-avatar">MP</span>
+                                    <span class="author-mini-name">Maria Perez</span>
+                                </div>
+                                <a href="blog-detail.html" class="blog-read-link">
+                                    Read More
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 4 -->
+                <div class="col-lg-4 col-md-6" data-category="industry-news">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="images/newspic1.jpeg" alt="Market Trends">
+                            <div class="blog-card-category industry-news">
+                                <i class="fa-solid fa-industry"></i>
+                                Industry News
+                            </div>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-card-meta">
+                                <span class="blog-card-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    March 5, 2025
+                                </span>
+                                <span class="blog-card-read-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    5 min
+                                </span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blog-detail.html">Asia Pacific Food Market Outlook: Growth Trends and Consumer
+                                    Insights for 2025</a>
+                            </h3>
+                            <p class="blog-card-description">Market analysis reveals shifting consumer preferences and
+                                emerging opportunities in the region's dynamic food and beverage landscape.</p>
+                            <div class="blog-card-footer">
+                                <div class="blog-author-mini">
+                                    <span class="author-mini-avatar">DW</span>
+                                    <span class="author-mini-name">David Wong</span>
+                                </div>
+                                <a href="blog-detail.html" class="blog-read-link">
+                                    Read More
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 5 -->
+                <div class="col-lg-4 col-md-6" data-category="sustainability">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="images/newspic2.jpeg" alt="Circular Economy">
+                            <div class="blog-card-category sustainability">
+                                <i class="fa-solid fa-leaf"></i>
+                                Sustainability
+                            </div>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-card-meta">
+                                <span class="blog-card-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    March 3, 2025
+                                </span>
+                                <span class="blog-card-read-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    6 min
+                                </span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blog-detail.html">Circular Economy in Food Production: Best Practices from
+                                    Leading Asian Brands</a>
+                            </h3>
+                            <p class="blog-card-description">Learn how innovative companies are closing the loop on
+                                waste and creating more sustainable food systems through circular economy principles.
+                            </p>
+                            <div class="blog-card-footer">
+                                <div class="blog-author-mini">
+                                    <span class="author-mini-avatar">RK</span>
+                                    <span class="author-mini-name">Rachel Kim</span>
+                                </div>
+                                <a href="blog-detail.html" class="blog-read-link">
+                                    Read More
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 6 -->
+                <div class="col-lg-4 col-md-6" data-category="innovation">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="images/newspic2.jpeg" alt="Alternative Proteins">
+                            <div class="blog-card-category innovation">
+                                <i class="fa-solid fa-lightbulb"></i>
+                                Innovation
+                            </div>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-card-meta">
+                                <span class="blog-card-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    March 1, 2025
+                                </span>
+                                <span class="blog-card-read-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    8 min
+                                </span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blog-detail.html">The Rise of Alternative Proteins in Asia: Market
+                                    Opportunities and Challenges</a>
+                            </h3>
+                            <p class="blog-card-description">From plant-based to cultivated meat, explore the rapidly
+                                evolving alternative protein sector and its potential to transform Asia's food
+                                landscape.</p>
+                            <div class="blog-card-footer">
+                                <div class="blog-author-mini">
+                                    <span class="author-mini-avatar">TN</span>
+                                    <span class="author-mini-name">Thomas Ng</span>
+                                </div>
+                                <a href="blog-detail.html" class="blog-read-link">
+                                    Read More
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 7 -->
+                <div class="col-lg-4 col-md-6" data-category="policy">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="images/banner2.jpg" alt="Food Safety">
+                            <div class="blog-card-category policy">
+                                <i class="fa-solid fa-gavel"></i>
+                                Policy
+                            </div>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-card-meta">
+                                <span class="blog-card-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    February 28, 2025
+                                </span>
+                                <span class="blog-card-read-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    5 min
+                                </span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blog-detail.html">Food Safety Standards Harmonization: Progress and Challenges
+                                    in ASEAN</a>
+                            </h3>
+                            <p class="blog-card-description">Understanding the ongoing efforts to harmonize food safety
+                                regulations across ASEAN and their impact on trade and consumer protection.</p>
+                            <div class="blog-card-footer">
+                                <div class="blog-author-mini">
+                                    <span class="author-mini-avatar">AP</span>
+                                    <span class="author-mini-name">Anita Patel</span>
+                                </div>
+                                <a href="blog-detail.html" class="blog-read-link">
+                                    Read More
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 8 -->
+                <div class="col-lg-4 col-md-6" data-category="industry-news">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="images/newspic1.jpeg" alt="Digital Transformation">
+                            <div class="blog-card-category industry-news">
+                                <i class="fa-solid fa-industry"></i>
+                                Industry News
+                            </div>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-card-meta">
+                                <span class="blog-card-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    February 25, 2025
+                                </span>
+                                <span class="blog-card-read-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    6 min
+                                </span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blog-detail.html">Digital Transformation in Food Retail: E-commerce Trends
+                                    Shaping Asia's Future</a>
+                            </h3>
+                            <p class="blog-card-description">How digital technologies and changing consumer behaviors
+                                are redefining food retail across the Asia Pacific region.</p>
+                            <div class="blog-card-footer">
+                                <div class="blog-author-mini">
+                                    <span class="author-mini-avatar">LS</span>
+                                    <span class="author-mini-name">Lisa Santos</span>
+                                </div>
+                                <a href="blog-detail.html" class="blog-read-link">
+                                    Read More
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 9 -->
+                <div class="col-lg-4 col-md-6" data-category="innovation">
+                    <div class="blog-card">
+                        <div class="blog-card-image">
+                            <img src="images/newspic2.jpeg" alt="Functional Foods">
+                            <div class="blog-card-category innovation">
+                                <i class="fa-solid fa-lightbulb"></i>
+                                Innovation
+                            </div>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-card-meta">
+                                <span class="blog-card-date">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    February 22, 2025
+                                </span>
+                                <span class="blog-card-read-time">
+                                    <i class="fa-regular fa-clock"></i>
+                                    7 min
+                                </span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blog-detail.html">Functional Foods and Nutraceuticals: Meeting Asia's Growing
+                                    Health Demands</a>
+                            </h3>
+                            <p class="blog-card-description">The functional food market in Asia is booming. Discover the
+                                trends driving consumer demand for health-enhancing food products.</p>
+                            <div class="blog-card-footer">
+                                <div class="blog-author-mini">
+                                    <span class="author-mini-avatar">KT</span>
+                                    <span class="author-mini-name">Kevin Tan</span>
+                                </div>
+                                <a href="blog-detail.html" class="blog-read-link">
+                                    Read More
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="blog-pagination mt-5">
+                <nav aria-label="Blog pagination">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Section -->
+    <!-- <section class="featured-blog-section py-5 bg-light">
+        <div class="container">
+            <div class="about-header text-center mb-5">
+                <div class="about-header-decoration"></div>
+                <p class="about-label">FEATURED STORY</p>
+                <h2 class="about-main-title">Editor's Pick</h2>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="featured-blog-image">
+                        <img src="images/newspic1.jpeg" alt="Featured Blog" class="img-fluid rounded">
+                        <div class="featured-blog-badge">
+                            <i class="fa-solid fa-star"></i>
+                            Featured
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="featured-blog-content">
+                        <div class="blog-meta-info">
+                            <span class="blog-category">Industry News</span>
+                            <span class="blog-date">
+                                <i class="fa-regular fa-calendar"></i>
+                                March 15, 2025
+                            </span>
+                            <span class="blog-read-time">
+                                <i class="fa-regular fa-clock"></i>
+                                5 min read
+                            </span>
+                        </div>
+                        <h2 class="featured-blog-title">
+                            <a href="blog-detail.html">The Processed Food Paradox: Convenience, Nutrition, and
+                                Controversy</a>
+                        </h2>
+                        <p class="featured-blog-excerpt">In the Philippines, where affordability and access are
+                            essential, processed foods are more than just a convenience-sometimes they're a lifeline.
+                            This comprehensive analysis explores the complex relationship between processed foods and
+                            public health in Southeast Asia.</p>
+                        <div class="blog-author-info">
+                            <div class="author-avatar">
+                                <span>MK</span>
+                            </div>
+                            <div class="author-details">
+                                <strong>Matt Kovac</strong>
+                                <span>Senior Industry Analyst</span>
+                            </div>
+                        </div>
+                        <a href="blog-detail.html" class="btn-read-more">
+                            <span>Read Full Article</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Newsletter Subscription -->
+    <!-- <section class="blog-newsletter-cta py-5 bg-light">
+        <div class="container">
+            <div class="newsletter-card">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="newsletter-content">
+                            <div class="newsletter-icon">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </div>
+                            <h3 class="newsletter-title">Subscribe to Our Newsletter</h3>
+                            <p class="newsletter-description">Get the latest insights, industry news, and exclusive
+                                content delivered straight to your inbox. Stay ahead of the curve in Asia's food and
+                                beverage industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="newsletter-form">
+                            <div class="newsletter-input-group">
+                                <input type="email" class="newsletter-input" placeholder="Enter your email address"
+                                    required>
+                                <button type="submit" class="btn-newsletter-submit">
+                                    Subscribe
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </button>
+                            </div>
+                            <p class="newsletter-privacy">We respect your privacy. Unsubscribe at any time.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Topics Cloud Section -->
+    <!-- <section class="topics-cloud-section py-5">
+        <div class="container">
+            <div class="about-header text-center mb-5">
+                <div class="about-header-decoration"></div>
+                <p class="about-label">EXPLORE TOPICS</p>
+                <h2 class="about-main-title">Popular Topics</h2>
+            </div>
+            <div class="topics-cloud">
+                <a href="#" class="topic-tag">Food Safety</a>
+                <a href="#" class="topic-tag">Sustainability</a>
+                <a href="#" class="topic-tag">Innovation</a>
+                <a href="#" class="topic-tag">Nutrition</a>
+                <a href="#" class="topic-tag">Packaging</a>
+                <a href="#" class="topic-tag">Supply Chain</a>
+                <a href="#" class="topic-tag">Consumer Trends</a>
+                <a href="#" class="topic-tag">Regulations</a>
+                <a href="#" class="topic-tag">Technology</a>
+                <a href="#" class="topic-tag">Alternative Proteins</a>
+                <a href="#" class="topic-tag">E-commerce</a>
+                <a href="#" class="topic-tag">Market Analysis</a>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Membership CTA Section -->
+    <section class="membership-cta py-5">
+        <div class="container">
+            <div class="membership-card">
+                <div class="membership-decorations">
+                    <div class="decoration-circle circle-1"></div>
+                    <div class="decoration-circle circle-2"></div>
+                    <div class="decoration-circle circle-3"></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="membership-content">
+                            <h2 class="membership-title">Become a Member Today!</h2>
+                            <p class="membership-subtitle">Unlock Exclusive Member Benefits</p>
+                            <p class="membership-description">Become part of a trusted network driving the future of
+                                food in Asia.
+                            </p>
+                            <a href="/membership.html" class="btn btn-membership">
+                                <span>Learn More</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="membership-features">
+                            <div class="feature-item">
+                                <i class="fa-solid fa-network-wired"></i>
+                                <span>Networking Events</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <span>Industry Insights</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fa-solid fa-handshake"></i>
+                                <span>Advocacy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-main py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-about">
+                            <img src="images/weblogo.png" width="311" height="80" alt="Food Industry Asia"
+                                class="footer-logo mb-4">
+                            <p class="footer-description">Stay Connected Follow FIA on Social Media Keep up with the latest industry insights, policy updates, and innovation stories from across Asia's food and beverage community.
+                            </p>
+                            <div class="footer-social">
+                                <a href="https://www.linkedin.com/company/food-industry-asia" aria-label="LinkedIn"><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.youtube.com/c/foodindustryasia" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-contact">
+                            <h4 class="footer-title">Contact Us</h4>
+                            <div class="contact-info-list">
+                                <div class="contact-info-item">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <div class="contact-details">
+                                        <span class="contact-label">Address:</span>
+                                        <span>Food Industry Asia (FIA),
+33 Mohamed Sultan Road #03-02
+Singapore 238977</span>
+                                    </div>
+                                </div>
+                                <div class="contact-info-item">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <div class="contact-details">
+                                        <span class="contact-label">Email:</span>
+                                        <a href="mailto:info@foodindustry.asia">info@foodindustry.asia</a>
+                                    </div>
+                                </div>
+                                <div class="contact-info-item">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <div class="contact-details">
+                                        <span class="contact-label">Phone:</span>
+                                        <a href="tel:+6562353854">(+65) 6235 3854</a>
+                                    </div>
+                                </div>
+                                <!-- <div class="contact-info-item">
+                                    <i class="fa-solid fa-fax"></i>
+                                    <div class="contact-details">
+                                        <span class="contact-label">Fax:</span>
+                                        <span>+603 2727 0075</span>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer-links-wrapper">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h4 class="footer-title">Quick Links</h4>
+                                    <ul class="footer-menu">
+                                        <li><a href="/index.html"><i class="fa-solid fa-chevron-right"></i> Home</a>
+                                        </li>
+                                        <li><a href="/about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a>
+                                        </li>
+                                        <li><a href="/membership.html"><i class="fa-solid fa-chevron-right"></i>
+                                                Membership & Benefits</a></li>
+                                        <li><a href="/events.html"><i class="fa-solid fa-chevron-right"></i> Events</a>
+                                        </li>
+                                        <li><a href="https://fiatv.foodindustry.asia/"><i class="fa-solid fa-chevron-right"></i> FIA TV</a></li>
+                                        <li><a href="/blogs.html"><i class="fa-solid fa-chevron-right"></i> Insights Hub</a></li>
+                                        <li><a href="/contact.html"><i class="fa-solid fa-chevron-right"></i>
+                                            Contact Us</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-chevron-right"></i>
+                                                Members Login</a></li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="col-6">
+                                    <h4 class="footer-title">Resources</h4>
+                                    <ul class="footer-menu">
+                                        
+                                    </ul>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom py-3">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="copyright-text mb-0">© 2025 Food Industry Asia (FIA). All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <ul class="footer-bottom-links">
+                            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                            <li><a href="/terms-conditions/">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-to-top" id="scrollTop">
+        <i class="fa-solid fa-angle-up"></i>
+    </button>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+    <script src="js/blogs.js"></script>
+</body>
+
+</html>
