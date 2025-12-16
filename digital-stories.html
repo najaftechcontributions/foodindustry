@@ -491,21 +491,21 @@
                             <span class="video-duration">${video.duration}</span>
                         </div>
                         <div class="video-options-menu">
-                            <button class="options-toggle-btn" onclick="digitalStories.toggleOptions(event, ${video.id})" aria-label="Options">
+                            <button class="options-toggle-btn" onclick="window.digitalStories.toggleOptions(event, ${video.id})" aria-label="Options">
                                 <i class="fa-solid fa-ellipsis-vertical"></i>
                             </button>
                             <div class="options-dropdown" id="options-${video.id}">
-                                <button class="options-dropdown-item" onclick="digitalStories.editVideo(${video.id})">
+                                <button class="options-dropdown-item" onclick="window.digitalStories.editVideo(${video.id})">
                                     <i class="fa-solid fa-pen"></i>
                                     Edit
                                 </button>
-                                <button class="options-dropdown-item delete" onclick="digitalStories.deleteVideo(${video.id})">
+                                <button class="options-dropdown-item delete" onclick="window.digitalStories.deleteVideo(${video.id})">
                                     <i class="fa-solid fa-trash"></i>
                                     Delete
                                 </button>
                             </div>
                         </div>
-                        <div class="video-info" onclick="digitalStories.playVideo(${video.id})">
+                        <div class="video-info" onclick="window.digitalStories.playVideo(${video.id})">
                             <h3 class="video-title">${video.title}</h3>
                             <div class="video-meta">
                                 <div class="video-stats">
@@ -520,11 +520,11 @@
                                 </div>
                             </div>
                             <div class="video-actions" onclick="event.stopPropagation()">
-                                <button class="action-btn" onclick="digitalStories.downloadVideo('${video.videoUrl}')" 
+                                <button class="action-btn" onclick="window.digitalStories.downloadVideo('${video.videoUrl}')"
                                         title="Download">
                                     <i class="fa-solid fa-download"></i>
                                 </button>
-                                <button class="action-btn" onclick="digitalStories.shareVideo('${video.title}', '${video.videoUrl}')" 
+                                <button class="action-btn" onclick="window.digitalStories.shareVideo('${video.title}', '${video.videoUrl}')"
                                         title="Share">
                                     <i class="fa-solid fa-share"></i>
                                 </button>
@@ -814,9 +814,12 @@
                     this.renderVideos(document.getElementById('searchInput').value);
                 });
 
-                document.getElementById('uploadBtn').addEventListener('click', () => {
-                    this.openModal();
-                });
+                const uploadBtn = document.getElementById('uploadBtn');
+                if (uploadBtn) {
+                    uploadBtn.addEventListener('click', () => {
+                        this.openModal();
+                    });
+                }
 
                 document.getElementById('closeModal').addEventListener('click', () => {
                     this.closeModal();
@@ -1033,7 +1036,6 @@
 
         (function () {
             window.digitalStories = new DigitalStories();
-            window.digitalStories.renderVideos();
         })();
     </script>
 </body>
